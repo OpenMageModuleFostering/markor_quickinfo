@@ -29,8 +29,13 @@
             </block>
         </reference>
         <reference name="right">
-            <block type="core/template" name="quickInfo">
-            <action method="setTemplate" ifconfig="quickinfo/SAMPLE/rightmode"><template>markor/quickinfo/column.phtml</template></action>
+            <block type="core/template" name="quickInfoRight">
+            	<action method="setTemplate" ifconfig="quickinfo/SAMPLE/rightmode"><template>markor/quickinfo/column.phtml</template></action>
+            </block>
+        </reference>
+        <reference name="left">
+            <block type="core/template" name="quickInfoLeft">
+            	<action method="setTemplate" ifconfig="quickinfo/SAMPLE/leftmode"><template>markor/quickinfo/column.phtml</template></action>
             </block>
         </reference>
     </default>    

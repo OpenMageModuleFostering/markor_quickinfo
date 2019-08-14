@@ -24,23 +24,13 @@
                 <title>Allow Everything</title>
             </all>
             <admin>
-                <children>
-                    <quickinfo translate="title" module="quickinfo">
-                        <title>MARKORNET</title>
-                        <sort_order>89</sort_order>
-                        <children>
-                            <information translate="title" module="quickinfo">
-                                <title>Information</title>
-                                <sort_order>10000</sort_order>
-                            </information>
-                        </children>
-                    </quickinfo>
+                <children>                    
                     <system>
                         <children>
                             <config>
                                 <children>
                                     <quickinfo>
-                                        <title>MARKORNET Information</title>
+                                        <title>MarKorNET Quick Info</title>
                                     </quickinfo>
                                 </children>
                             </config>

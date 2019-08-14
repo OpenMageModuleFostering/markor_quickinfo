@@ -3,10 +3,10 @@
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
-    "description": "Displays short info about shop's contact.",
+    "description": "This module allow you display short info about shop's contact on footer or on right column. On the right column you can set image displaying with module.",
     "authors": [
     {
-        "name": "Marcin Korzystka",
+        "name": "MarKor NET",
         "email": "biuro@markornet.com"
     }
 ],
