@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/MarKor_QuickInfo",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Displays short info about shop's contact.",
+    "authors": [
+    {
+        "name": "Marcin Korzystka",
+        "email": "biuro@markornet.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

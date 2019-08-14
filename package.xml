@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>MarKor_QuickInfo</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Displays short info about shop's contact.</summary>
+    <description>This module allow you display short info about shop's contact on footer or on right column.</description>
+    <notes>none</notes>
+    <authors><author><name>Marcin Korzystka</name><user>markornet</user><email>biuro@markornet.com</email></author></authors>
+    <date>2015-02-17</date>
+    <time>18:16:43</time>
+    <contents><target name="magecommunity"><dir name="MarKor"><dir name="QuickInfo"><dir name="Helper"><file name="Data.php" hash="ba8976c61698cccafceea050267dc269"/></dir><dir name="etc"><file name="adminhtml.xml" hash="d0b9ee61a9695e4c7809cdcbb2fb889e"/><file name="config.xml" hash="8e79f9c10648ad9409bf1a7d5f152535"/><file name="system.xml" hash="437be4d8f2e08cc1300ed1cb96ad9620"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="markor"><file name="quickinfo.xml" hash="a0bdbec624827b18abd31c5ce44fc230"/></dir></dir><dir name="template"><dir name="markor"><dir name="quickinfo"><file name="column.phtml" hash="9cb90c86943e78fae6d3405df776e79c"/><file name="info.phtml" hash="863df20836bef5f0b0881a34dfdda668"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="MarKor_QuickInfo.xml" hash="7c8c4b60ce9de7c24158c53a436b8019"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

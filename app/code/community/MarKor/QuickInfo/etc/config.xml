@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * MarKor NET
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ * @category   MarKorNET
+ * @package    MarKor_QuickInfo
+ * @author     Marcin Korzystka  <support@markornet.com>
+ * @copyright  Copyright (c) MarKor NET (http://www.markornet.com)
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<!-- The root node for Magento module configuration -->
+<config>
+    <!--
+        The module's node contains basic
+        information about each Magento module
+    -->
+    <modules>
+        <!--
+            This must exactly match the namespace and module's folder
+            names, with directory separators replaced by underscores
+        -->
+        <MarKor_QuickInfo>
+            <version>1.0.0</version>
+        </MarKor_QuickInfo>
+    </modules>
+	<global>
+	    <helpers>
+            <quickinfo>
+                <class>MarKor_QuickInfo_Helper</class>
+            </quickinfo>
+        </helpers>
+	</global>
+	<frontend>
+        <!-- we are making changes to the layout -->
+        <layout>            
+            <!-- we are adding a new update file -->
+            <updates>                
+                <!-- 
+                    this child node name must be
+                    unique throughout Magento
+                -->
+                <markor_quickinfo 
+                         module="MarKor_QuickInfo">                    
+                    <!-- the name of the layout file we are adding -->
+                    <file>markor/quickinfo.xml</file>                    
+                </markor_quickinfo>                
+            </updates>            
+        </layout>        
+    </frontend>
+    <default>
+    <quickinfo>
+      <SAMPLE>
+        <enableimage>1</enableimage>
+      </SAMPLE>
+    </quickinfo>
+  </default>
+</config>

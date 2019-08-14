@@ -1,0 +1,40 @@
+<?php
+/**
+ * MarKor NET
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ * @category   MarKorNET
+ * @package    MarKor_QuickInfo
+ * @author     Marcin Korzystka  <support@markornet.com>
+ * @copyright  Copyright (c) MarKor NET (http://www.markornet.com)
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+
+/**
+ * @see Mage_Authorizenet_Block_Directpost_Form
+ */
+?>
+<?php 
+$storePhone = Mage::getStoreConfig('general/store_information/phone');
+$storeEmail = Mage::getStoreConfig('trans_email/ident_general/email');
+?>
+<div class="block block-subscribe">
+<div class="block-title">
+<strong><span><?php echo $this->__('Contact Us'); ?></span></strong>
+</div>
+<div class="block-content">
+<p><strong><?php echo Mage::getStoreConfig('general/store_information/name') ?></strong></p>
+<p><?php echo $storePhone; ?></p>
+<p><?php echo $storeEmail; ?></p>
+</div>
+<?php if(Mage::getStoreConfig('quickinfo/SAMPLE/enableimage')): ?>
+<img src="<?php echo Mage::getBaseUrl('media')."markornet/".Mage::getStoreConfig('quickinfo/SAMPLE/logo') ?>" style="float: right;"/>
+<div style="clear: right"></div>
+<?php endif; ?>
+</div>
