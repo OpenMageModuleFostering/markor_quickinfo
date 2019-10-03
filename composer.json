@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/MarKor_QuickInfo",
+    "name": "openmage-module-fostering\/markor_quickinfo",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This module allow you display short info about shop's contact on footer or on right column. On the right column you can set image displaying with module.",
     "authors": [

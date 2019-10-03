@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 This module allow you display short info about shop's contact on footer or on right column. On the right column you can set image displaying with module.
